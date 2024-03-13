@@ -1,0 +1,49 @@
+body {
+    background-color: #FFFDCB;
+    color: white;
+    text-shadow: 1px 1px 2px #3b3835;
+}
+
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+header{
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    text-shadow: 1px 1px 2px #ff0606;
+}
+
+.highlight, .highlight-container {
+    position: relative;
+}
+
+.highlight-container{
+    display: inline-block;
+}
+
+.highlight-container::before{
+    content: "";
+    display: block;
+    height: 90%;
+    width: 100%;
+    margin-left: -3px;
+    margin-right: -3px;
+    position: absolute;
+    background-color: #FFB38E;
+    transform: rotate(2deg);
+    border-radius: 20% 25% 20% 24%;
+    top: -1px;
+    left: -1px;
+    padding: 10px 3px 3px 10px;
+    
+    
+}
