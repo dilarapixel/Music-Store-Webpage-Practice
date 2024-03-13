@@ -1,27 +1,103 @@
+/*              Structure Start              */
 body {
     background-color: #FFFDCB;
-    color: white;
-    text-shadow: 1px 1px 2px #3b3835;
-}
-
-.madimi-one-regular {
-    font-family: "Madimi One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-header{
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px #000000aa;
     height: 100%;
     width: 60%;
     margin: 0 auto;
     text-align: center;
 }
 
+header{
+    
+}
+
+main{
+    height: 100%;
+    background-color: #FFB38E;
+    margin: 5%;
+    border-radius: 10px;
+}
+
+article {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2%;
+    font-size: 1.5vw;
+
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif
+}
+/*              Structure End              */
+/*              Navbar Items Start              */
+nav ul{
+    margin: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #e7dfdb;
+    
+}
+
+nav ul a {
+    
+    display:inline-block;
+    text-align: center;
+    width: 25%;
+    height: 25%;
+    background-color: #FFB38E;
+    color: #a22323;
+    font-size: 1.70vw;
+    padding: 1.5%;
+    border-radius: 10px;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+   
+    
+    
+
+}
+/*              Navbar Items End              */
+
+/*              Text Start              */
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 h1 {
     font-size: 70px;
     text-shadow: 1px 1px 2px #ff0606;
+    color: white;
+    font-size: 10vw;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
+hr {
+    height: 8px;
+    background-image: linear-gradient(90deg, #ff7272, transparent);
+    border: 0;
+    height: 2px;
+}
+
+a{
+    color: #a22323;
+    text-decoration: none;
+}
+
+article li{
+    list-style-position: inside;
+}
+/*              Text End              */
+
+/*              Highligh Feature Start              */
 .highlight, .highlight-container {
     position: relative;
 }
@@ -44,6 +120,7 @@ h1 {
     top: -1px;
     left: -1px;
     padding: 10px 3px 3px 10px;
-    
-    
 }
+
+/*              Highligh Feature Start              */
+
